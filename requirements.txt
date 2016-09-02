@@ -1,0 +1,2 @@
+lektor==2.3
+rcssmin==1.0.6

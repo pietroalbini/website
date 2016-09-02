@@ -1,0 +1,53 @@
+title: Contact me
+---
+body:
+
+If you want to get in touch with me for any reason, feel free to do it! I
+usually reply fast :)
+
+### Online accounts
+
+Here there is a list of some of the websites I'm registered to:
+
+* GitHub: [pietroalbini][github] - *with most of my public source code*
+* Launchpad: [~pietroalbini][lp] - *with my activity in Ubuntu*
+* Twitter: [@pietroalbini][twitter] - *some tweets when I remember to write*
+
+I have a presence on a lot more websites and services, but those are the most
+important and relevant ones, but if you find a *pietroalbini* somewhere it's
+probably me!
+
+### Personal communication
+
+My email address is [pietro@pietroalbini.io][mail], and I usually reply in a
+few days. If you prefer a chat thing, the app I currently use is
+[Telegram][telegram-org], and you can contact me with the
+[@pietroalbini][telegram] username.
+
+My own GPG key is [0x0490381a6f58bcda][gpg], which you can find in the most
+common keyservers. I also have a profile on [Keybase][keybase].
+
+### Projects issues
+
+Did you found an issue in one of my personal projects? Good, it means I'm an
+human like you, and I would like to fix it ;)
+
+* If the issue is **not a security problem** you should report it in the
+  project's issue tracker. You should find it in the project home page, and if
+  you're in trouble reporting it feel free to contact me directly.
+
+* If the issue is a security problem, please **don't post it publicly** and
+  send me an email, possibly encrypted with my GPG key: I'll look into it and
+  push a fix out!
+
+
+[github]: https://github.com/pietroalbini
+[lp]: https://launchpad.net/~pietroalbini
+[twitter]: https://twitter.com/pietroalbini
+
+[mail]: mailto:pietro@pietroalbini.io
+[telegram-org]: https://telegram.org
+[telegram]: https://telegram.me/pietroalbini
+
+[gpg]: http://pgp.mit.edu/pks/lookup?op=vindex&search=0x0490381A6F58BCDA
+[keybase]: https://keybase.io/pietroalbini

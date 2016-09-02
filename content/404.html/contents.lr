@@ -1,0 +1,16 @@
+_model: error
+---
+name: Page not found
+---
+body:
+
+Sorry, but the page you're trying to reach doesn't exist. If it was an old link
+it might be broken now, and the [Wayback machine][wayback] is a great way to
+get its content back! And [getting in touch with me][contact] is a good idea if
+you want to see this fixed :)
+
+And don't forget to check out [my latest blog post][blog]!
+
+[wayback]: http://web.archive.org/web/*/pietroalbini.io
+[contact]: /contact
+[blog]: /blog/+latest

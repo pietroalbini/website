@@ -1,0 +1,9 @@
+[project]
+name = Pietro Albini's website
+url_style = absolute
+url = https://pietroalbini.io
+
+[packages]
+lektor-htmlmin = 0.3
+lektor-markdown-excerpt = 0.1
+lektor-atom = 0.2

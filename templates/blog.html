@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+
+{% from "macros.html" import paginate, blog_post %}
+
+{% block title %}Blog{% endblock %}
+{% block body %}
+    <h2>Blog posts</h2>
+    <p>
+        Here you can read my thoughts, announcements, tutorials, and more.
+        But just the few times I remember to write them down :)
+    </p>
+
+    {% for child in this.pagination.items %}
+        {{ blog_post(child, preview=true) }}
+    {% endfor %}
+
+    {{ paginate(this.pagination) }}
+{% endblock %}

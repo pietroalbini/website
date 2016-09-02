@@ -1,0 +1,116 @@
+body {
+    color: #222;
+    font-family: sans-serif;
+    line-height: 1.5em;
+    margin: 0;
+}
+
+ul {
+    padding-left: 1.25em;
+}
+
+ul li {
+    list-style: square;
+    margin: 0.3em 0;
+}
+
+a {
+    text-decoration: none;
+    color: #0B43B4;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h3, h4, h5, h6 {
+    margin: 1.7em 0 0.4em 0;
+}
+
+header {
+    padding: 0.2em 0;
+    text-align: center;
+}
+
+header img {
+    margin: 0.6em 0.6em 0 0.6em;
+    height: 3em;
+    border-radius: 0.2em;
+}
+
+header nav ul {
+    font-size: 1.1em;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+
+    margin: 0;
+    padding: 0.25em 0.5em;
+}
+
+header nav ul li a {
+    text-decoration: none;
+}
+
+header nav ul li a.active {
+    color: #222;
+}
+
+div.container {
+    max-width: 45em;
+    margin: auto;
+    padding: 0 1em;
+}
+
+div.pagination {
+    text-align: center;
+    margin: 2em 0;
+}
+
+div.pagination span {
+    display: inline-block;
+    margin: 0 0.5em;
+}
+
+div.post.preview {
+    margin: 2.5em 0;
+}
+
+div.post.preview a.continue {
+    display: block;
+    text-align: center;
+}
+
+div.post h2 {
+    margin: 0.8em 0 0.3em 0;
+    text-align: center;
+}
+
+div.post div.meta {
+    margin-top: 0;
+    text-align: center;
+    font-style: italic;
+}
+
+footer {
+    text-align: center;
+    margin: 2em 0;
+    color: #aaa;
+}
+
+footer ul {
+    margin: 0;
+    padding: 0;
+}
+
+footer ul li {
+    margin: 0.1em 0.6em;
+    display: inline-block;
+}
+
+footer a {
+    color: #666;
+}

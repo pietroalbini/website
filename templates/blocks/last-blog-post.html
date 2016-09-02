@@ -1,0 +1,3 @@
+{% from "macros.html" import blog_post %}
+
+{{ blog_post(site.query('/blog').first(), preview=True) }}
