@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /+assets
+Disallow: /ssh
+Disallow: /gpg
+
+Sitemap: https://pietroalbini.io/sitemap.xml
