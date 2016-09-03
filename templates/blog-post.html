@@ -3,6 +3,22 @@
 {% from "macros.html" import blog_post %}
 
 {% block title %}{{ this.title }}{% endblock %}
+{% block extra_header %}
+    {% set description = this.body | excerpt | striptags %}
+
+    <meta name="description" content="{{ description }}">
+
+    <meta property="og:site_name" content="Pietro Albini's blog">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="{{ this | url(external=true) }}">
+    <meta property="og:title" content="{{ this.title }}">
+    <meta property="og:description" content="{{ description }}">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image" content="{{ "/+assets/avatar-medium.jpg" | url(external=true) }}" />
+    <meta name="twitter:site" content="@pietroalbini">
+    <meta name="twitter:creator" content="@pietroalbini">
+{% endblock %}
 {% block body %}
   {{ blog_post(this) }}
 {% endblock %}
