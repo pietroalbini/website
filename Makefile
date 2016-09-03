@@ -28,8 +28,10 @@ html: build/env *
 	@rm -rf build/tmp
 	@mkdir -p build/html
 	@mkdir -p build/tmp
+	@mkdir -p build/cache
 	# Make a new build
-	@build/env/bin/lektor build -O build/html -f htmlmin
+	@XDG_CACHE_HOME=build/cache \
+		build/env/bin/lektor build -O build/html -f htmlmin
 	# Minify CSS assets
 	@build/env/bin/python -m rcssmin < build/html/+assets/style.css \
 		> build/tmp/style.css
