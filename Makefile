@@ -1,4 +1,4 @@
-.PHONY: all html clean devel
+.PHONY: all html clean devel build-update-requirements
 
 
 all: html
@@ -16,13 +16,13 @@ build/env: build/requirements.txt
 # than the requirements.txt's one. This means, if the requirements.txt file is
 # more recent than the environment but its content reflects the environment,
 # the virtualenv will not be recreated
-build/requirements.txt: requirements.txt
+build-update-requirements:
 	@mkdir -p build
 	@cmp --silent requirements.txt build/requirements.txt || \
 		cp requirements.txt build/requirements.txt
 
 
-html: build/env *
+html: build-update-requirements build/env *
 	# Clean the build directory
 	@rm -rf build/html
 	@rm -rf build/tmp
@@ -40,7 +40,7 @@ html: build/env *
 	@rm -rf build/tmp
 
 
-devel: build/env *
+devel: build-update-requirements build/env *
 	@build/env/bin/lektor server -p 8000
 
 
