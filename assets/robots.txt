@@ -1,5 +1,4 @@
 User-agent: *
-Disallow: /+assets
 Disallow: /ssh
 Disallow: /gpg
 
