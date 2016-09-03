@@ -4,11 +4,22 @@
 all: html
 
 
-build/env: requirements.txt
+# Environment creation
+
+build/env: build/requirements.txt
 	@rm -rf build/env
 	@mkdir -p build/env
 	@virtualenv -p python2 build/env
-	@build/env/bin/pip install -r requirements.txt
+	@build/env/bin/pip install -r build/requirements.txt
+
+# This only updates the build/requirements.txt file if its content is different
+# than the requirements.txt's one. This means, if the requirements.txt file is
+# more recent than the environment but its content reflects the environment,
+# the virtualenv will not be recreated
+build/requirements.txt: requirements.txt
+	@mkdir -p build
+	@cmp --silent requirements.txt build/requirements.txt || \
+		cp requirements.txt build/requirements.txt
 
 
 html: build/env *
