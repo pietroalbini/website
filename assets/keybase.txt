@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/pietroalbini
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://pietroalbini.io
+  * I am pietroalbini (https://keybase.io/pietroalbini) on keybase.
+  * I have a public key ASCkU7HzYIlV67fRsPNytKyTIAeYmrHtImAfgZa7CNFheAo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01017cc9aa509335adc570004618ee2cbcf89a5aad9c602a16a33526a8e7d87877ef0a",
+            "host": "keybase.io",
+            "kid": "0120a453b1f3608955ebb7d1b0f372b4ac932007989ab1ed22601f8196bb08d161780a",
+            "uid": "476b354c99d5c6d7a444f9b719f5ba19",
+            "username": "pietroalbini"
+        },
+        "service": {
+            "hostname": "pietroalbini.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.17"
+    },
+    "ctime": 1473012597,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1473012564,
+        "hash": "93bc2771b1b8a2bf56860f9eb898a67c488f20197ebbf49ae331842fd158f51bbf7d42090c4dd60f4806ecd1c9629d65abb64a962f40a48b50a5f665b09e92b2",
+        "seqno": 618525
+    },
+    "prev": "735f63daaa2af8c0d5386377dde3a5b0a7672b42b4ea6eb1cc5a4e9a7247935d",
+    "seqno": 18,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgpFOx82CJVeu30bDzcrSskyAHmJqx7SJgH4GWuwjRYXgKp3BheWxvYWTFAvx7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxN2NjOWFhNTA5MzM1YWRjNTcwMDA0NjE4ZWUyY2JjZjg5YTVhYWQ5YzYwMmExNmEzMzUyNmE4ZTdkODc4NzdlZjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwYTQ1M2IxZjM2MDg5NTVlYmI3ZDFiMGYzNzJiNGFjOTMyMDA3OTg5YWIxZWQyMjYwMWY4MTk2YmIwOGQxNjE3ODBhIiwidWlkIjoiNDc2YjM1NGM5OWQ1YzZkN2E0NDRmOWI3MTlmNWJhMTkiLCJ1c2VybmFtZSI6InBpZXRyb2FsYmluaSJ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoicGlldHJvYWxiaW5pLmlvIiwicHJvdG9jb2wiOiJodHRwczoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMTcifSwiY3RpbWUiOjE0NzMwMTI1OTcsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTQ3MzAxMjU2NCwiaGFzaCI6IjkzYmMyNzcxYjFiOGEyYmY1Njg2MGY5ZWI4OThhNjdjNDg4ZjIwMTk3ZWJiZjQ5YWUzMzE4NDJmZDE1OGY1MWJiZjdkNDIwOTBjNGRkNjBmNDgwNmVjZDFjOTYyOWQ2NWFiYjY0YTk2MmY0MGE0OGI1MGE1ZjY2NWIwOWU5MmIyIiwic2Vxbm8iOjYxODUyNX0sInByZXYiOiI3MzVmNjNkYWFhMmFmOGMwZDUzODYzNzdkZGUzYTViMGE3NjcyYjQyYjRlYTZlYjFjYzVhNGU5YTcyNDc5MzVkIiwic2Vxbm8iOjE4LCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQNg23tpwWmJn7CNHpsfKs6qCvcpiPGHz7c8fqaSYjhEtcoPV+pucWrYpcKLwgSiyJTGMOpPWu6sBkSFLTO2NmQCoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCB0KVg9kMf1J3pYc/KZWpgFCSkfNfkgZ/vj/auWfz/onKN0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/pietroalbini
+
+==================================================================
