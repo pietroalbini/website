@@ -1,7 +1,7 @@
 [project]
 name = Pietro Albini's website
 url_style = absolute
-url = https://pietroalbini.io
+url = https://www.pietroalbini.org
 
 [packages]
 lektor-htmlmin = 0.3
