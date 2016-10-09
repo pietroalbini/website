@@ -8,6 +8,8 @@ In my free time I develop and maintain a few free, open source projects:
 * [trackdeps][trackdeps], a tool to track new releases of Python dependencies
 * [BuildTheDocs][buildthedocs], a Sphinx documentation building tool on
   steroids
+* [civ5-wallpapers][civ5-wallpapers]: a tool to use Civilization V paintings as
+  your Linux wallpapers
 
 You can also find more repositories in [my GitHub profile][github], be sure to
 check it out!
@@ -15,5 +17,6 @@ check it out!
 [botogram]: https://botogram.pietroalbini.io
 [trackdeps]: https://trackdeps.pietroalbini.io
 [buildthedocs]: https://buildthedocs.pietroalbini.io
+[civ5-wallpapers]: https://github.com/pietroalbini/civ5-wallpapers
 
 [github]: https://github.com/pietroalbini
