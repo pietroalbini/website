@@ -1,0 +1,35 @@
+{% extends "layout.html" %}
+
+
+{% block title %}Blog archive{% endblock %}
+{% block body %}
+    <h2>Blog archive</h2>
+
+    {# Calculate the archive content #}
+    {% set sorted = {} %}
+    {% for post in site.query("/blog").filter(F._model == "blog-post") %}
+        {% set pub_date = post.pub_date | dateformat("y-MM") %}
+        {% set nice_pub_date = post.pub_date | dateformat("MMMM y") %}
+        {{ "" if sorted.setdefault(pub_date, {
+            "nice_date": nice_pub_date,
+            "posts": [],
+        }) else "" }}
+        {{ "" if sorted[pub_date]["posts"].append(post) else "" }}
+    {% endfor %}
+
+    <p>
+        Here you can find a list of all the blog posts I wrote. Good reading!
+    </p>
+
+    {% for _, data in sorted.items() | sort(attribute=0, reverse=true) %}
+        <h3>{{ data["nice_date"]}}</h3>
+        <ul>
+        {% for post in data["posts"] %}
+            <li>
+                <a href="{{ post | url }}">{{ post.title }}</a>
+                - <i>{{ post.pub_date | dateformat("long") }}</i>
+            </li>
+        {% endfor %}
+    </ul>
+    {% endfor %}
+{% endblock %}

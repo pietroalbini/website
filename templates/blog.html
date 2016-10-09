@@ -15,4 +15,9 @@
     {% endfor %}
 
     {{ paginate(this.pagination) }}
+
+    <p>
+        There is also a list of <a href="{{ "/blog/archive" | url }}">all the
+        posts I published</a>, if you want to find an old post.
+    </p>
 {% endblock %}
