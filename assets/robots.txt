@@ -1,5 +1,6 @@
 User-agent: *
 Disallow: /ssh
 Disallow: /gpg
+Disallow: /blog/latest
 
 Sitemap: https://www.pietroalbini.org/sitemap.xml
