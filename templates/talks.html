@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+
+{% block title %} Talks {% endblock %}
+{% block body %}
+    <h2>My talks</h2>
+    <p>
+        I sometimes speak at conferences: here there are the notes and slides
+        of those talks!
+    </p>
+    <ul>
+        {% for child in this.children %}
+        <li>
+            <a href="{{ child | url }}">{{ child.title }}</a><br>
+            <i>
+                {{ child.date | dateformat("long")}}, at {{ child.conference }}
+            </i>
+        </li>
+        {% endfor %}
+    </ul>
+{% endblock %}

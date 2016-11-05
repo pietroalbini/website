@@ -1,0 +1,28 @@
+title: Introduzione a Rust
+---
+conference: Ubuntu-it meeting 2016
+---
+date: 2016-11-05
+---
+notes:
+
+Ecco alcuni link con informazioni utili se volete iniziare a sviluppare in
+Rust:
+
+* [Sito web del linguaggio][home]
+* [rustup, il tool per scaricare, installare ed aggiornare Rust][rustup]
+* ["The Book": la documentazione narrativa del linguaggio][thebook]
+* [La documentazione della standard library][std]
+
+Se avete problemi o dubbi mentre muovete i primi passi con Rust, la comunità è
+molto cordiale ed inclusiva: i posti migliori dove fare domande sono [il
+forum][forum], [r/rust][reddit] e il canale IRC `#rust-beginners` su
+`irc.mozilla.org`.
+
+[home]: https://www.rust-lang.org
+[rustup]: https://www.rustup.rs
+[thebook]: https://doc.rust-lang.org/book
+[std]: https://doc.rust-lang.org/std
+
+[forum]: https://users.rust-lang.org
+[reddit]: https://reddit.com/r/rust

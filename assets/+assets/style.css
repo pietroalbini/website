@@ -33,6 +33,15 @@ img {
     width: 100%;
 }
 
+code {
+    display: inline-block;
+    padding: 0.1em 0.4em;
+    font-size: 1.1em;
+
+    border-radius: 0.2em;
+    background: #eee;
+}
+
 pre {
     border-radius: 0.5em;
     background: #eee;
@@ -120,6 +129,20 @@ div.post div.meta {
     margin-top: 0;
     text-align: center;
     font-style: italic;
+}
+
+div.attachments {
+    margin: 2em 0;
+    padding: 0 1em;
+    border: 0.1em solid #ddd;
+    border-radius: 0.2em;
+}
+
+div.attachments h2 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.2em;
+    color: #888;
 }
 
 footer {

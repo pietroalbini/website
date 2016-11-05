@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+
+{% from "macros.html" import attachments %}
+
+{% block title %}{{ this.title }}{% endblock %}
+{% block body %}
+    <div class="post">
+        <h2>{{ this.title }}</h2>
+        <div class="meta">
+            {{ this.date | dateformat("long") }}, at {{ this.conference }}
+        </div>
+
+        {{ this.notes }}
+
+        {{ attachments(this, "More resources") }}
+    </div>
+{% endblock %}
