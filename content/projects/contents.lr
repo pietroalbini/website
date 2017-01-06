@@ -8,15 +8,17 @@ In my free time I develop and maintain a few free, open source projects:
 * [trackdeps][trackdeps], a tool to track new releases of Python dependencies
 * [BuildTheDocs][buildthedocs], a Sphinx documentation building tool on
   steroids
+* [Persuade][persuade], simple PDF presenter console, in your web browser
 * [civ5-wallpapers][civ5-wallpapers]: a tool to use Civilization V paintings as
   your Linux wallpapers
 
 You can also find more repositories in [my GitHub profile][github], be sure to
 check it out!
 
-[botogram]: https://botogram.pietroalbini.io
-[trackdeps]: https://trackdeps.pietroalbini.io
-[buildthedocs]: https://buildthedocs.pietroalbini.io
+[botogram]: https://botogram.pietroalbini.org
+[trackdeps]: https://trackdeps.pietroalbini.org
+[buildthedocs]: https://buildthedocs.pietroalbini.org
+[persuade]: https://persuade.pietroalbini.org
 [civ5-wallpapers]: https://github.com/pietroalbini/civ5-wallpapers
 
 [github]: https://github.com/pietroalbini
