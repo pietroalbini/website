@@ -17,6 +17,17 @@ license.
 
 ### How it works
 
+When you open Persuade, you're asked to load your slides into the application:
+you can choose them either from the local device or a remote URL (which must
+support cross-origin requests, due to browser limitations). Then, you can
+tune a few configuration params before starting.
+
+After the presenter console is ready, a popup is opened by your browser: you
+should move the popup to the projector's screen, and then go fullscreen. This
+way, you can show the slides to your audience. The talk is then on you.
+
+### What's under the hood
+
 Persuade is technically a static website: there is no backend, and all the
 logic is implemented client side with some JavaScript. This is great for a few
 reasons:
