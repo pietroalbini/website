@@ -46,6 +46,8 @@ argomento.
  * Ars: [Ashley Madison hack is not only real, it’s worse than we
    thought][ashley-ars] (inglese)
  * Troy Hunt: [Ashley Madison data breach Q&A][ashley-troy] (inglese)
+ * Troy Hunt: [Going dark: online privacy and anonymity for normal
+   people][ashley-dark] (inglese)
 
 * **Bug bounties**
  * HackerOne: [Hack the Pentagon][bounty-pentagon] (inglese)
@@ -87,6 +89,7 @@ argomento.
 [ashley-erratasec]: http://blog.erratasec.com/2015/08/notes-on-ashley-madison-dump.html
 [ashley-ars]: https://arstechnica.com/security/2015/08/ashley-madison-hack-is-not-only-real-its-worse-than-we-thought/
 [ashley-troy]: https://www.troyhunt.com/ashley-madison-data-breach-q/
+[ashley-dark]: https://www.troyhunt.com/going-dark-online-privacy-and-anonymity-for-normal-people/
 
 [bounty-pentagon]: https://www.hackerone.com/resources/hack-the-pentagon
 [bounty-reuters]: http://www.reuters.com/article/us-usa-pentagon-cyber-idUSKCN0Z32IU
