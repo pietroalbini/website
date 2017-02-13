@@ -1,0 +1,101 @@
+title: 2016 RECAP
+---
+conference: Liceo Serpieri
+---
+date: 2017-02-14
+---
+notes:
+
+Grazie per aver seguito il talk! In questa pagina ci sono i siti che ho citato,
+oltre a numerosi link per approfondire gli argomenti trattati, divisi per
+argomento.
+
+### Siti web e post citati
+
+* [LastPass][sites-lastpass]
+* [Have I Been Pwned][sites-hibp] (inglese)
+* [Vulnerabilità che ho trovato su Gandi.net][sites-gandi-2fa] (inglese)
+
+### Approfondimento
+
+* **L'iPhone di S. Bernardino**
+ * Wikipedia: [2015 San Bernardino attack][iphone-attack-wiki] (inglese)
+ * Wikipedia: [FBI–Apple encryption dispute][iphone-wiki] (inglese)
+ * Repubblica: [Tutte le notizie sull'argomento][iphone-news]
+ * Apple: [A letter to our customers][iphone-apple] (inglese)
+
+* **La chiave che apre tutta New York**
+ * New York Post: [The $8 key that can open New York City to
+   terrorists][1620-nypost] (inglese)
+ * Privacy News Online: [In one single image, establishment and mainstream
+   media show their utter ignorance of security][1620-pno] (inglese)
+
+* **AlphaGo**
+ * DeepMind: [Home page del progetto][alphago-deepmind] (inglese)
+ * YouTube: [Le cinque partite contro Lee Sedol commentate in inglese][alphago-yt]
+ * Wikipedia: [Il gioco del Go][alphago-go-wikipedia]
+ * Wikipedia: [AlphaGo vs Lee Sedol][alphago-wikipedia] (inglese)
+ * Nature: [Mastering the game of Go with deep neural networks and tree
+   search][alphago-paper] (inglese, articolo accademico, a pagamento 30€)
+
+* **Ashley Madison**
+ * Graham Cluley: [Ashley Madison's leaked database available for
+   download][ashley-graham] (inglese)
+ * Errata Security: [Notes on the Ashley-Madison dump][ashley-erratasec]
+   (inglese)
+ * Ars: [Ashley Madison hack is not only real, it’s worse than we
+   thought][ashley-ars] (inglese)
+ * Troy Hunt: [Ashley Madison data breach Q&A][ashley-troy] (inglese)
+
+* **Bug bounties**
+ * HackerOne: [Hack the Pentagon][bounty-pentagon] (inglese)
+ * Reuters: [Teen hacks Pentagon websites, gets thanked for finding 'bugs'][bounty-reuters] (inglese)
+ * Google: [Google Bug Bounty Program][bounty-google] (inglese)
+ * Facebook: [Facebook Bug Bounty Program][bounty-fb] (inglese)
+ * Exfiltrated: [Instagram's Million Dollar Bug][bounty-instagram] (inglese)
+ * Google Project Zero: [Chrome OS exploit: one byte overflow and
+   symlinks][bounty-chromeos] (inglese)
+
+* **Mirai**
+ * GitHub: [Codice sorgente di Mirai][mirai-gh] (inglese)
+ * KrebsOnSecurity: [Akamai on the record KrebsOnSecurity attack][mirai-akamai]
+   (inglese)
+ * KrebsOnSecurity: [Who is Anna-Sempai, the Mirai worm author?][mirai-anna]
+   (inglese)
+ * Ars: [How one rent-a-botnet army of cameras, DVRs caused Internet
+   chaos][mirai-ars] (inglese)
+
+[sites-lastpass]: https://www.lastpass.com/it/
+[sites-hibp]: https://haveibeenpwned.com/
+[sites-gandi-2fa]: https://www.pietroalbini.org/blog/gandi-security-vulnerability-2fa-bypass/
+
+[iphone-attack-wiki]: https://en.wikipedia.org/wiki/2015_San_Bernardino_attack
+[iphone-wiki]: https://en.wikipedia.org/wiki/FBI–Apple_encryption_dispute
+[iphone-news]: http://www.repubblica.it/argomenti/strage_di_san_bernardino
+[iphone-apple]: http://www.apple.com/customer-letter/
+
+[1620-nypost]: http://nypost.com/2015/09/20/the-8-key-that-can-open-new-york-city-to-terrorists/
+[1620-pno]: https://www.privateinternetaccess.com/blog/2016/03/one-single-image-mainstream-media-shows-utter-ignorance-security/
+
+[alphago-deepmind]: https://deepmind.com/research/alphago/
+[alphago-yt]: https://www.youtube.com/playlist?list=PLqYmG7hTraZA7v9Hpbps0QNmJC4L1NE3S
+[alphago-go-wikipedia]: https://it.wikipedia.org/wiki/Go_(gioco)
+[alphago-wikipedia]: https://en.wikipedia.org/wiki/AlphaGo_versus_Lee_Sedol
+[alphago-paper]: http://www.nature.com/nature/journal/v529/n7587/full/nature16961.html
+
+[ashley-graham]: https://www.grahamcluley.com/ashley-madisons-leaked-database-available-download-read-this/
+[ashley-erratasec]: http://blog.erratasec.com/2015/08/notes-on-ashley-madison-dump.html
+[ashley-ars]: https://arstechnica.com/security/2015/08/ashley-madison-hack-is-not-only-real-its-worse-than-we-thought/
+[ashley-troy]: https://www.troyhunt.com/ashley-madison-data-breach-q/
+
+[bounty-pentagon]: https://www.hackerone.com/resources/hack-the-pentagon
+[bounty-reuters]: http://www.reuters.com/article/us-usa-pentagon-cyber-idUSKCN0Z32IU
+[bounty-google]: https://www.google.com/about/appsecurity/reward-program/
+[bounty-fb]: https://www.facebook.com/whitehat
+[bounty-instagram]: https://www.exfiltrated.com/research-Instagram-RCE.php
+[bounty-chromeos]: https://googleprojectzero.blogspot.it/2016/12/chrome-os-exploit-one-byte-overflow-and.html
+
+[mirai-gh]: https://github.com/jgamblin/Mirai-Source-Code
+[mirai-akamai]: https://krebsonsecurity.com/2016/11/akamai-on-the-record-krebsonsecurity-attack/
+[mirai-anna]: https://krebsonsecurity.com/2017/01/who-is-anna-senpai-the-mirai-worm-author/
+[mirai-ars]: https://arstechnica.com/information-technology/2016/10/inside-the-machine-uprising-how-cameras-dvrs-took-down-parts-of-the-internet/
