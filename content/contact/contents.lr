@@ -2,16 +2,16 @@ title: Contact me
 ---
 body:
 
-If you want to get in touch with me for any reason, feel free to do it! I
-usually reply fast :)
+This page lists my contact information, if you want to get in touch with me!
 
 ### Online accounts
 
 Here there is a list of some of the websites I'm registered to:
 
-* GitHub: [pietroalbini][github] - *with most of my public source code*
+* GitHub: [pietroalbini][github] - *with most of my public source code and Rust
+  activity*
 * Launchpad: [~pietroalbini][lp] - *with my activity in Ubuntu*
-* Twitter: [@pietroalbini][twitter] - *some tweets when I remember to write*
+* Twitter: [@pietroalbini][twitter] - *my tweets, if I remember to write them*
 
 I have a presence on a lot more websites and services, but those are the most
 important and relevant ones, but if you find a *pietroalbini* somewhere it's
@@ -26,19 +26,6 @@ few days. If you prefer a chat thing, the app I currently use is
 
 My own GPG key is [0x0490381a6f58bcda][gpg], which you can find in the most
 common keyservers. I also have a profile on [Keybase][keybase].
-
-### Projects issues
-
-Did you found an issue in one of my personal projects? Good, it means I'm an
-human like you, and I would like to fix it ;)
-
-* If the issue is **not a security problem** you should report it in the
-  project's issue tracker. You should find it in the project home page, and if
-  you're in trouble reporting it feel free to contact me directly.
-
-* If the issue is a security problem, please **don't post it publicly** and
-  send me an email, possibly encrypted with my GPG key: I'll look into it and
-  push a fix out!
 
 
 [github]: https://github.com/pietroalbini

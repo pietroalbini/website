@@ -1,6 +1,6 @@
 body {
     color: #222;
-    font-family: sans-serif;
+    font-family: "Bitter", serif;
     line-height: 1.5em;
     margin: 0;
 }
@@ -16,7 +16,7 @@ ul li {
 
 a {
     text-decoration: none;
-    color: #0B43B4;
+    color: #006fff;
 }
 
 a:hover {
@@ -60,30 +60,26 @@ pre code {
 }
 
 header {
-    border-bottom: 0.1em solid #eee;
-    padding: 1em 0;
-    margin-bottom: 2em;
-    text-align: center;
+    padding-top: 1em;
+    margin-bottom: 1.5em;
+    display: flex;
 }
 
-header img {
-    margin: 0.2em 0.6em 0 0.6em;
-    height: 3em;
-    width: 3em;
-    border-radius: 0.2em;
+header div#title {
+    font-weight: 700;
+    flex: 1;
 }
 
 header nav ul {
-    font-size: 1.1em;
+    flex: 1;
     margin: 0;
     padding: 0;
 }
 
 header nav ul li {
     display: inline-block;
-
     margin: 0;
-    padding: 0.25em 0.5em;
+    padding: 0 0 0 1em;
 }
 
 header nav ul li a {
@@ -92,6 +88,7 @@ header nav ul li a {
 
 header nav ul li a.active {
     color: #222;
+    text-decoration: none;
 }
 
 div.container {
@@ -111,7 +108,7 @@ div.pagination span {
 }
 
 div.post.preview {
-    margin: 2.5em 0;
+    margin: 1.5em 0;
 }
 
 div.post.preview a.continue {
@@ -122,33 +119,18 @@ div.post.preview a.continue {
 div.post h2 {
     line-height: 1.5em;
     margin: 0.8em 0 0.3em 0;
-    text-align: center;
 }
 
 div.post div.meta {
-    margin-top: 0;
-    text-align: center;
+    margin-top: -0.3em;
     font-style: italic;
-}
-
-div.attachments {
-    margin: 2em 0;
-    padding: 0 1em;
-    border: 0.1em solid #ddd;
-    border-radius: 0.2em;
-}
-
-div.attachments h2 {
-    text-align: center;
-    font-weight: 400;
-    font-size: 1.2em;
-    color: #888;
 }
 
 footer {
     text-align: center;
     margin: 2em 0;
-    color: #aaa;
+    font-size: 0.9em;
+    color: #888;
 }
 
 footer ul {
@@ -157,10 +139,17 @@ footer ul {
 }
 
 footer ul li {
-    margin: 0.1em 0.6em;
+    margin: 0.1em 0.5em;
     display: inline-block;
 }
 
 footer a {
-    color: #666;
+    color: #555;
+}
+
+@media all and (max-width: 45em) {
+    header {
+        display: block;
+        text-align: center;
+    }
 }

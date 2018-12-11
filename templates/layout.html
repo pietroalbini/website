@@ -8,6 +8,7 @@
         <title>{% block title %}{% endblock %} - Pietro Albini</title>
 
         <link rel="stylesheet" href="{{ "/+assets/style.css" | asseturl }}">
+        <link rel="stylesheet" href="https://assets.pietroalbini.org/fonts/bitter/include.min.css">
 
         <link rel="alternate" href="{{ "/blog@atom/blog" | url }}"
               title="Pietro Albini's blog" type="application/atom+xml">
@@ -15,28 +16,24 @@
         {% block extra_header %}{% endblock %}
     </head>
     <body>
-        <header>
-            <img src="{{ "/+assets/avatar-small.jpg" | asseturl }}"
-                 alt="Pietro Albini">
-            <nav>
-                <ul>
-                    {{ menu_item(this, "/", "Welcome") }}
-                    {{ menu_item(this, "/blog", "Blog") }}
-                    {{ menu_item(this, "/projects", "Projects") }}
-                    {{ menu_item(this, "/talks", "Talks") }}
-                    {{ menu_item(this, "/contact", "Contacts") }}
-                </ul>
-            </nav>
-        </header>
-
         <div class="container">
+            <header>
+                <div id="title">Pietro Albini</div>
+                <nav>
+                    <ul>
+                        {{ menu_item(this, "/", "Welcome") }}
+                        {{ menu_item(this, "/blog", "Blog") }}
+                        {{ menu_item(this, "/projects", "Projects") }}
+                        {{ menu_item(this, "/contact", "Contacts") }}
+                    </ul>
+                </nav>
+            </header>
+
             {% block body %}{% endblock %}
-        </div>
 
-        <div class="container">
             <footer>
                 <ul>
-                    <li>Copyright &copy; 2016 Pietro Albini.</li>
+                    <li>Copyright &copy; 2016-2018 Pietro Albini.</li>
                     <li><a href="https://github.com/pietroalbini/website">
                         Source code
                     </a></li>

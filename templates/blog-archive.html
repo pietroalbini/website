@@ -3,8 +3,6 @@
 
 {% block title %}Blog archive{% endblock %}
 {% block body %}
-    <h2>Blog archive</h2>
-
     {# Calculate the archive content #}
     {% set sorted = {} %}
     {% for post in site.query("/blog").filter(F._model == "blog-post") %}
@@ -17,9 +15,7 @@
         {{ "" if sorted[pub_date]["posts"].append(post) else "" }}
     {% endfor %}
 
-    <p>
-        Here you can find a list of all the blog posts I wrote. Good reading!
-    </p>
+    <p>All my blog posts, in chronological order.</p>
 
     {% for _, data in sorted.items() | sort(attribute=0, reverse=true) %}
         <h3>{{ data["nice_date"]}}</h3>

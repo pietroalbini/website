@@ -1,4 +1,0 @@
-{% from "macros.html" import redirect %}
-
-{% set talk = site.query("/talks").first() %}
-{{ redirect(talk | url) }}
