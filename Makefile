@@ -23,27 +23,17 @@ build-update-requirements:
 
 
 html: build-update-requirements build/env *
-	# Clean the build directory
 	@rm -rf build/html
-	@rm -rf build/tmp
 	@mkdir -p build/html
-	@mkdir -p build/tmp
 	@mkdir -p build/cache
-	# Make a new build
 	@XDG_CACHE_HOME=build/cache \
-		build/env/bin/lektor build -O build/html -f htmlmin
-	# Minify CSS assets
-	@build/env/bin/python -m rcssmin < build/html/+assets/style.css \
-		> build/tmp/style.css
-	@mv build/tmp/style.css build/html/+assets/style.css
-	# Remove tmp files
-	@rm -rf build/tmp
+		build/env/bin/lektor build -O build/html -f minify
 
 
 devel: build-update-requirements build/env *
 	@mkdir -p build/cache
 	@XDG_CACHE_HOME=build/cache \
-		build/env/bin/lektor server -p 8000
+		build/env/bin/lektor server -p 8000 -f minify
 
 
 clean:
