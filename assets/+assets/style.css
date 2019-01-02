@@ -68,6 +68,7 @@ header {
 header div#title {
     font-weight: 700;
     flex: 1;
+    font-size: 1.3em;
 }
 
 header nav ul {
@@ -119,11 +120,13 @@ div.post.preview a.continue {
 div.post h2 {
     line-height: 1.5em;
     margin: 0.8em 0 0.3em 0;
+    text-align: center;
 }
 
 div.post div.meta {
     margin-top: -0.3em;
     font-style: italic;
+    text-align: center;
 }
 
 footer {
@@ -151,5 +154,9 @@ footer a {
     header {
         display: block;
         text-align: center;
+    }
+
+    header nav ul {
+        margin-top: 0.3em;
     }
 }
