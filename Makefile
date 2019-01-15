@@ -9,7 +9,7 @@ all: html
 build/env: build/requirements.txt
 	@rm -rf build/env
 	@mkdir -p build/env
-	@virtualenv -p python2 build/env
+	@virtualenv -p python3 build/env
 	@build/env/bin/pip install -r build/requirements.txt
 
 # This only updates the build/requirements.txt file if its content is different
