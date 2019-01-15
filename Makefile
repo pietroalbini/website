@@ -33,7 +33,7 @@ html: build-update-requirements build/env *
 devel: build-update-requirements build/env *
 	@mkdir -p build/cache
 	@XDG_CACHE_HOME=build/cache \
-		build/env/bin/lektor server -p 8000 -f minify
+		build/env/bin/lektor server -p 8000 -O build/html -f minify
 
 
 clean:
