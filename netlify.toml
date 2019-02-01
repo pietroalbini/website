@@ -9,6 +9,20 @@ to = "https://www.pietroalbini.org/:splat"
 status = 301
 force = true
 
+# Permanent redirect from pietroalbini.com to pietroalbini.org
+[[redirects]]
+from = "https://pietroalbini.com/*"
+to = "https://www.pietroalbini.org/:splat"
+status = 301
+force = true
+
+# Permanent redirect from www.pietroalbini.com to pietroalbini.org
+[[redirects]]
+from = "https://www.pietroalbini.com/*"
+to = "https://www.pietroalbini.org/:splat"
+status = 301
+force = true
+
 # Security headers
 [[headers]]
 for = "/*"
