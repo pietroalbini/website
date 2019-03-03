@@ -26,17 +26,9 @@ are stored for a month in order to be able to resolve issues or investigate
 malicious traffic. Those information might be also present in the servers'
 backups.
 
-### Servers location and datacenter security
-
-The servers which powers this website are hosted with [DigitalOcean][do] (an US
-company) in Frankfurt (Germany). You can check out their [security
-practices][do-security].  Also, the connection between you and the servers is
-encrypted with TSL, with no third parties in the middle such as CloudFlare.
-
 If you have any other question please [contact me][contact]!
 
-*Last update: September 3, 2016.*
+*Last update: March 3rd, 2019.*
 
 [do]: https://www.digitalocean.com
-[do-security]: https://www.digitalocean.com/security
 [contact]: /contact
