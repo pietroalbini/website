@@ -6,14 +6,13 @@ I'm involved in the [Rust programming language][rust] team, as part of the
 Infrastructure and Release teams. I'm also the maintainer and main developer of
 [Crater][crater], a tool to test compiler changes across the Rust ecosystem.
 
-I'm also part of the [italian Ubuntu community][ubuntu-it], where I manage the
-website, the servers and the social media accounts.
-
 In the past I also developed a few open source projects. While I don't actively
 develop or maintain them anymore, I do a few tweaks to them when it's
-necessary. You can find them on [my GitHub profile][github].
+necessary. You can find them on [my GitHub profile][github]. I was also part of
+the [italian Ubuntu community][ubuntu-it], where I managed the servers, the
+website and the social media accounts.
 
 [rust]: https://www.rust-lang.org
 [crater]: https://github.com/rust-lang-nursery/crater
-[ubuntu-it]: https://www.ubuntu-it.org
 [github]: https://github.com/pietroalbini
+[ubuntu-it]: https://www.ubuntu-it.org
