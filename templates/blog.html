@@ -2,7 +2,9 @@
 
 {% from "macros.html" import paginate, blog_post %}
 
-{% block title %}Blog{% endblock %}
+{% set page_title = "Blog posts" %}
+{% set page_subheader_title = "Pietro's posts" %}
+{% set page_subtitle = "...when I remember to write them down." %}
 {% block body %}
     {% for child in this.pagination.items %}
         {{ blog_post(child, preview=true) }}

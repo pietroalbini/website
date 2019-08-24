@@ -2,7 +2,8 @@
 
 {% from "macros.html" import blog_post %}
 
-{% block title %}{{ this.title }}{% endblock %}
+{% set page_title = this.title %}
+{% set page_subtitle = "Written on " + this.pub_date | dateformat("long") + "." %}
 {% block extra_header %}
     {% set description = this.body | excerpt | striptags %}
 
@@ -20,5 +21,5 @@
     <meta name="twitter:creator" content="@pietroalbini">
 {% endblock %}
 {% block body %}
-  {{ blog_post(this) }}
+    {{ this.body }}
 {% endblock %}

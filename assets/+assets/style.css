@@ -66,43 +66,72 @@ pre code {
     overflow-x: auto;
 }
 
-header {
+header.main-header {
     color: hsl(214, 50%, 20%);
     padding: 1em 0;
     margin-bottom: 1.5em;
     background: hsl(214, 30%, 97%);
 }
 
-header > div.container {
+header.main-header > div.container {
     display: flex;
 }
 
-header div#title {
+header.main-header div#title {
     font-weight: 700;
     flex: 1;
     font-size: 1.3em;
 }
 
-header nav ul {
+header.main-header nav ul {
     flex: 1;
     margin: 0;
     padding: 0;
     font-family: "Bitter", serif;
 }
 
-header nav ul li {
+header.main-header nav ul li {
     display: inline-block;
     margin: 0;
     padding: 0 0 0 1em;
 }
 
-header nav ul li a {
+header.main-header nav ul li a {
     text-decoration: none;
 }
 
-header nav ul li a.active {
+header.main-header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+header.main-header nav ul li a.active {
     color: hsl(214, 50%, 20%);
     text-decoration: none;
+}
+
+header.sub-header {
+    margin: -1.5em 0 2em 0;
+    padding: 2em;
+    background: hsl(214, 50%, 20%);
+    color: #fff;
+    text-align: center;
+}
+
+header.sub-header h1 {
+    margin: 0;
+    line-height: 1.3em;
+}
+
+header.sub-header h1.shell-command {
+    text-align: left;
+}
+
+header.sub-header p {
+    text-align: center;
+    font-family: "Bitter", sans-serif;
+    margin: 0;
+    padding-top: 0.5em;
+    color: hsl(214, 70%, 80%);
 }
 
 div.container {

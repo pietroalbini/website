@@ -1,7 +1,7 @@
 {% extends "layout.html" %}
 
 
-{% block title %}Blog archive{% endblock %}
+{% set page_title = "Blog archive" %}
 {% block body %}
     {# Calculate the archive content #}
     {% set sorted = {} %}
@@ -14,8 +14,6 @@
         }) else "" }}
         {{ "" if sorted[pub_date]["posts"].append(post) else "" }}
     {% endfor %}
-
-    <p>All my blog posts, in chronological order.</p>
 
     {% for _, data in sorted.items() | sort(attribute=0, reverse=true) %}
         <h3>{{ data["nice_date"]}}</h3>

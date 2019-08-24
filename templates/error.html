@@ -1,8 +1,6 @@
 {% extends "layout.html" %}
 
-{% block title %}{{ this.name }}{% endblock %}
+{% set page_title = this.name %}
 {% block body %}
-    <h2>{{ this.name }}</h2>
-
     {{ this.body }}
 {% endblock %}

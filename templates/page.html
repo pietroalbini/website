@@ -1,6 +1,9 @@
 {% extends "layout.html" %}
 
-{% block title %}{{ this.title }}{% endblock %}
+{% set page_title = this.title %}
+{% if this.subheader_title %}
+    {% set page_subheader_title = this.subheader_title %}
+{% endif %}
 {% block body %}
     {{ this.body }}
 

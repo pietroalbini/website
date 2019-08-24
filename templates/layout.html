@@ -5,7 +5,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
-        <title>{% block title %}{% endblock %} - Pietro Albini</title>
+        <title>{{ page_title }} - Pietro Albini</title>
 
         <link rel="stylesheet" href="{{ "/+assets/style.css" | asseturl }}">
         <link rel="stylesheet" href="https://assets.pietroalbini.org/fonts/bitter/include.min.css">
@@ -18,7 +18,7 @@
         {% block extra_header %}{% endblock %}
     </head>
     <body>
-        <header>
+        <header class="main-header">
             <div class="container">
                 <div id="title">Pietro Albini</div>
                 <nav>
@@ -28,6 +28,22 @@
                         {{ menu_item(this, "/about", "About me") }}
                     </ul>
                 </nav>
+            </div>
+        </header>
+        <header class="sub-header">
+            <div class="container">
+                {% block sub_header %}
+                <h1>
+                    {% if page_subheader_title %}
+                        {{ page_subheader_title }}
+                    {% else %}
+                        {{ page_title }}
+                    {% endif %}
+                </h1>
+                {% if page_subtitle %}
+                    <p>{{ page_subtitle }}</p>
+                {% endif %}
+                {% endblock %}
             </div>
         </header>
 
