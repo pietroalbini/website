@@ -17,8 +17,8 @@
         {% block extra_header %}{% endblock %}
     </head>
     <body>
-        <div class="container">
-            <header>
+        <header>
+            <div class="container">
                 <div id="title">Pietro Albini</div>
                 <nav>
                     <ul>
@@ -28,7 +28,10 @@
                         {{ menu_item(this, "/contact", "Contacts") }}
                     </ul>
                 </nav>
-            </header>
+            </div>
+        </header>
+
+        <div class="container">
 
             {% block body %}{% endblock %}
 

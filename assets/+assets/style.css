@@ -16,7 +16,7 @@ ul li {
 
 a {
     text-decoration: none;
-    color: #006fff;
+    color: hsl(214, 100%, 50%);
 }
 
 a:hover {
@@ -60,8 +60,12 @@ pre code {
 }
 
 header {
-    padding-top: 1em;
+    padding: 1em 0;
     margin-bottom: 1.5em;
+    background: hsl(214, 30%, 97%);
+}
+
+header > div.container {
     display: flex;
 }
 
@@ -151,7 +155,7 @@ footer a {
 }
 
 @media all and (max-width: 45em) {
-    header {
+    header > div.container {
         display: block;
         text-align: center;
     }
