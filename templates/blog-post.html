@@ -3,7 +3,8 @@
 {% from "macros.html" import blog_post %}
 
 {% set page_title = this.title %}
-{% set page_subtitle = "Written on " + this.pub_date | dateformat("long") + "." %}
+{% set page_subheader_title = this.title %}
+{% set page_subheader_subtitle = "Written on " + this.pub_date | dateformat("long") + "." %}
 {% block extra_header %}
     {% set description = this.body | excerpt | striptags %}
 

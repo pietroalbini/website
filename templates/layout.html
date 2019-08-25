@@ -30,22 +30,16 @@
                 </nav>
             </div>
         </header>
+        {% if page_subheader_title %}
         <header class="sub-header">
             <div class="container">
-                {% block sub_header %}
-                <h1>
-                    {% if page_subheader_title %}
-                        {{ page_subheader_title }}
-                    {% else %}
-                        {{ page_title }}
-                    {% endif %}
-                </h1>
-                {% if page_subtitle %}
-                    <p>{{ page_subtitle }}</p>
+                <h1>{{ page_subheader_title }}</h1>
+                {% if page_subheader_subtitle %}
+                    <p>{{ page_subheader_subtitle }}</p>
                 {% endif %}
-                {% endblock %}
             </div>
         </header>
+        {% endif %}
 
         <div class="container">
 

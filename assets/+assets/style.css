@@ -112,8 +112,8 @@ header.main-header nav ul li a.active {
 header.sub-header {
     margin: -1.5em 0 2em 0;
     padding: 2em;
-    background: hsl(214, 50%, 20%);
-    color: #fff;
+    background: hsl(214, 40%, 93%);
+    color: hsl(214, 50%, 20%);
     text-align: center;
 }
 
@@ -131,7 +131,7 @@ header.sub-header p {
     font-family: "Bitter", sans-serif;
     margin: 0;
     padding-top: 0.5em;
-    color: hsl(214, 70%, 80%);
+    color: hsl(214, 50%, 40%);
 }
 
 div.container {
