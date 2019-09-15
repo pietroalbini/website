@@ -1,0 +1,18 @@
+div.error {
+    h2 {
+        font-weight: 400;
+        font-size: 4em;
+        text-align: center;
+        line-height: 1.2em;
+        margin: 0;
+    }
+
+    p {
+        font-family: $font-main;
+        font-size: 2em;
+        line-height: 1.2em;
+        color: $color-light-blue;
+        text-align: center;
+        margin: 0;
+    }
+}
