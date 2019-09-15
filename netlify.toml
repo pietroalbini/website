@@ -1,6 +1,6 @@
 [build]
 publish = "build"
-command = "make"
+command = "bundle exec jekyll build"
 
 # Permanent redirect from the netlify domain to the canonical domain
 [[redirects]]
