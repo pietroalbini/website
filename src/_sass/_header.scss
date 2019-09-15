@@ -1,0 +1,58 @@
+header#main-header {
+    color: $color-black;
+    padding: 1em 0;
+    margin-bottom: 1.5em;
+    background: $color-light-gray;
+
+    & > div.container {
+        display: flex;
+    }
+
+    div#title {
+        font-weight: 700;
+        flex: 1;
+        font-size: 1.3em;
+    }
+
+    nav {
+        flex: 1;
+        text-align: right;
+
+        a {
+            display: inline-block;
+            margin: 0;
+            padding: 0 0.5em;
+
+            &.active {
+                color: $color-black;
+
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+
+            &:first-child {
+                padding-left: 0;
+            }
+
+            &:last-child {
+                padding-right: 0;
+            }
+        }
+    }
+
+    @media all and (max-width: $container-width) {
+        & > div.container {
+            flex-direction: column;
+        }
+
+        div#title {
+            text-align: center;
+        }
+
+        nav {
+            margin-top: 0.3em;
+            text-align: center;
+        }
+    }
+}

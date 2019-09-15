@@ -1,0 +1,82 @@
+body {
+    color: $color-black;
+    font-family: $font-main;
+    line-height: 1.5em;
+
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    & > div {
+        flex: 1;
+    }
+}
+
+p {
+    text-align: justify;
+    font-family: $font-text;
+}
+
+ul {
+    padding-left: 1.25em;
+    text-align: justify;
+    font-family: $font-text;
+
+    li {
+        list-style: square;
+        margin: 0.3em 0;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: $color-blue;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+h3, h4, h5, h6 {
+    font-weight: 400;
+    margin: 1.7em 0 0.4em 0;
+}
+
+img {
+    margin: 1em 0;
+    border-radius: 0.2em;
+    width: 100%;
+}
+
+code {
+    display: inline-block;
+    padding: 0.1em 0.4em;
+    font-size: 1.1em;
+
+    border-radius: 0.2em;
+    background: $color-light-gray;
+}
+
+pre {
+    border-radius: 0.5em;
+    background: $color-light-gray;
+
+    code {
+        box-sizing: border-box;
+        display: block;
+        padding: 0.8em 1.4em;
+
+        font-size: 1.1em;
+        line-height: 1.7em;
+
+        width: 100%;
+        overflow-x: auto;
+    }
+}
+
+div.container {
+    max-width: $container-width;
+    margin: auto;
+    padding: 0 1em;
+}

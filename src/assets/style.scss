@@ -1,0 +1,22 @@
+---
+---
+
+@charset "utf-8";
+
+$font-main: "Bitter", serif;
+$font-text: "Fira Sans", sans-serif;
+
+$hue: 214;
+
+$color-black: hsl($hue, 50%, 20%);
+$color-blue: hsl($hue, 100%, 50%);
+$color-light-blue: hsl($hue, 45%, 50%);
+$color-gray: hsl($hue, 30%, 95%);
+$color-light-gray: hsl($hue, 30%, 98%);
+
+$container-width: 45rem;
+
+@import "_base";
+@import "_header";
+@import "_posts";
+@import "_footer";

@@ -1,4 +1,0 @@
-{% from "macros.html" import redirect %}
-
-{% set post = site.query("/blog").first() %}
-{{ redirect(post | url) }}

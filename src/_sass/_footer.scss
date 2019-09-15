@@ -1,0 +1,24 @@
+footer {
+    flex: 0;
+    border-top: 0.1em solid $color-gray;
+    padding-top: 1.5em;
+    margin: 2em 0;
+    font-size: 0.9em;
+    color: $color-light-blue;
+
+    ul {
+        font-family: $font-main;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+
+        li {
+            margin: 0.1em 0.5em;
+            display: inline-block;
+        }
+    }
+
+    a {
+        color: $color-black;
+    }
+}

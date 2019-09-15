@@ -1,0 +1,15 @@
+---
+layout: default
+title: Blog posts
+weight: -10
+---
+
+{% for post in site.posts %}
+    <a class="post-list-item" href="{{ post.url | prepend: site.baseurl }}">
+        <div class="meta">
+            <div class="date">{{ post.date |date:"%b %-d, %Y" }}</div>
+            <div class="title">{{ post.title }}</div>
+        </div>
+        <div class="arrow">&rsaquo;</div>
+    </a>
+{% endfor %}

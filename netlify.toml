@@ -1,5 +1,5 @@
 [build]
-publish = "build/html"
+publish = "build"
 command = "make"
 
 # Permanent redirect from the netlify domain to the canonical domain

@@ -1,0 +1,34 @@
+name: Pietro Albini's blog
+author: Pietro Albini
+baseurl: ""
+url: "https://www.pietroalbini.org"
+
+source: src
+destination: build
+markdown: kramdown
+
+permalink: /blog/:title/
+
+collections:
+  redirects:
+    permalink: /:name
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      weight: 0
+  - scope:
+      path: ""
+      type: redirects
+    values:
+      sitemap: false
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+
+feed:
+  path: blog/atom.xml
