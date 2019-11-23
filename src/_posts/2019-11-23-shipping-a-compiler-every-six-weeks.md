@@ -250,7 +250,7 @@ that for a bunch of time the server is going to be idle so we are just wasting
 resources. We have actually more sponsorship offers from corporations, so if we
 reach a point where the queue is not sustainable anymore we are going to get
 agents from them before asking the community. Also Crater is really heavy on
-resources: at the moment I think we have 24 cores and 48GB of RAM, 4 telebytes
+resources: at the moment I think we have 24 cores and 48GB of RAM, 4 terabytes
 of disk space, so it's not something where you can throw out some small virtual
 machine and get meaningful results out of it.
 
