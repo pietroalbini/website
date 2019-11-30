@@ -256,4 +256,4 @@ machine and get meaningful results out of it.
 
 [RustFest 2019]: https://barcelona.rustfest.eu
 [slides]: /assets/blog/shipping-a-compiler-every-six-weeks/slides.pdf
-[yt]: https://youtu.be/LPpulLUUVCc?t=10470
+[yt]: https://www.youtube.com/watch?v=As1gXp5kX1M
