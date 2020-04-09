@@ -32,3 +32,8 @@ plugins:
 
 feed:
   path: blog/atom.xml
+
+hyphenate_filter:
+  language: en_us
+  left: 3
+  right: 2

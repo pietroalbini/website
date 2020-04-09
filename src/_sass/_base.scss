@@ -16,6 +16,10 @@ body {
 p {
     text-align: justify;
     font-family: $font-text;
+
+    -webkit-hyphens: manual;
+        -ms-hyphens: manual;
+            hyphens: manual;
 }
 
 ul {
