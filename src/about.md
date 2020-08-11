@@ -3,11 +3,12 @@ layout: page
 title: About me
 ---
 
-I'm Pietro, a CS student and Mozilla contractor working on the [Rust
-programming language][rust]. I started contributing as a volunteer to the Rust
-project in 2018, and I'm now the co-lead of the [Infrastructure
-Team][infra-team], a member of the [Release Team][release-team], [crates.io
-Team][cratesio-team], and [Security Response WG][wg-security-response].
+I'm Pietro, a CS student working on the [Rust programming language][rust]. I
+started contributing as a volunteer to the Rust project in 2018, and I'm now
+the co-lead of the [Infrastructure Team][infra-team] and [docs.rs
+Team][docsrs-team], a member of the [Core Team][core-team], [Release
+Team][release-team], [crates.io Team][cratesio-team], and [Security Response
+WG][wg-security-response].
 
 In the past I was involved in the [Ubuntu italian community][ubuntu-it], and I
 created a few small open source projects you can find in my [GitHub
@@ -21,6 +22,8 @@ language, follow [the project's policy][rust-security-policy] instead.
 
 [rust]: https://www.rust-lang.org
 [infra-team]: https://www.rust-lang.org/governance/teams/operations#infra
+[docsrs-team]: https://www.rust-lang.org/governance/teams/dev-tools#docs-rs
+[core-team]: https://www.rust-lang.org/governance/teams/core
 [release-team]: https://www.rust-lang.org/governance/teams/operations#release
 [cratesio-team]: https://www.rust-lang.org/governance/teams/crates-io
 [wg-security-response]: https://www.rust-lang.org/governance/wgs/wg-security-response
