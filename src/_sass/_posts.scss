@@ -1,5 +1,5 @@
 div.post-meta {
-    border-bottom: 0.1em solid $color-gray;
+    border-bottom: 0.1em solid $color-gray-95;
     padding: 1.5em 0;
     margin-top: -1.5em;
     margin-bottom: 1.5em;
@@ -14,7 +14,7 @@ div.post-meta {
 
     p {
         font-family: $font-main;
-        color: $color-light-blue;
+        color: $color-main-50;
         text-align: center;
         margin: 0;
     }
@@ -24,7 +24,7 @@ a.post-list-item {
     display: flex;
     align-items: center;
     margin: 1em 0;
-    color: $color-black;
+    color: $color-main-20;
 
     &:hover {
         text-decoration: none;
@@ -38,7 +38,7 @@ a.post-list-item {
         flex: 1;
 
         div.date {
-            color: $color-light-blue;
+            color: $color-main-50;
         }
 
         div.title {

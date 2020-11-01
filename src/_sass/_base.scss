@@ -1,5 +1,5 @@
 body {
-    color: $color-black;
+    color: $color-main-20;
     font-family: $font-main;
     line-height: 1.5em;
 
@@ -35,7 +35,7 @@ ul {
 
 a {
     text-decoration: none;
-    color: $color-blue;
+    color: $color-bright-50;
 
     &:hover {
         text-decoration: underline;
@@ -50,7 +50,7 @@ h2, h3, h4, h5, h6 {
 hr {
     margin: 1.5em 0;
     border: 0;
-    border-top: 1px solid $color-gray;
+    border-top: 1px solid $color-gray-95;
 }
 
 img {
@@ -65,12 +65,12 @@ code {
     font-size: 1.1em;
 
     border-radius: 0.2em;
-    background: $color-light-gray;
+    background: $color-gray-98;
 }
 
 pre {
     border-radius: 0.5em;
-    background: $color-light-gray;
+    background: $color-gray-98;
 
     code {
         box-sizing: border-box;

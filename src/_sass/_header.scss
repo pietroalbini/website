@@ -1,8 +1,8 @@
 header#main-header {
-    color: $color-black;
+    color: $color-main-20;
     padding: 1em 0;
     margin-bottom: 1.5em;
-    background: $color-light-gray;
+    background: $color-gray-98;
 
     & > div.container {
         display: flex;
@@ -24,7 +24,7 @@ header#main-header {
             padding: 0 0.5em;
 
             &.active {
-                color: $color-black;
+                color: $color-main-20;
 
                 &:hover {
                     text-decoration: none;
