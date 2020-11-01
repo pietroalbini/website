@@ -1,79 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width">
-
-        <title>{% if page.title %}{{ page.title | escape }} - Pietro Albini{% else %}Pietro Albini{% endif %}</title>
-
-        <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-
-        <link rel="stylesheet" href="{{ "/assets/style.css" | relative_url }}">
-        <link rel="stylesheet" href="https://assets.pietroalbini.org/fonts/bitter/include.min.css">
-        <link rel="stylesheet" href="https://assets.pietroalbini.org/fonts/fira-sans/include.min.css">
-
-        <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
-
-        {% if page.collection == "posts" %}
-            {% assign description = page.excerpt | newline_to_br | replace:'<br />', ' ' | strip_html | strip_newlines | strip %}
-
-            <meta name="description" content="{{ description }}">
-
-            <meta property="og:site_name" content="Pietro Albini's blog">
-            <meta property="og:type" content="article">
-            <meta property="og:url" content="{{ page.url | absolute_url }}">
-            <meta property="og:title" content="{{ page.title }}">
-            <meta property="og:description" content="{{ description }}">
-
-            <meta name="twitter:card" content="summary">
-            <meta name="twitter:image" content="{{ '/assets/avatar-medium.jpg' | absolute_url }}" />
-            <meta name="twitter:site" content="@pietroalbini">
-            <meta name="twitter:creator" content="@pietroalbini">
-        {% endif %}
-
-        {% feed_meta %}
-    </head>
-    <body>
-        <div>
-            <header id="main-header">
-                <div class="container">
-                    <div id="title">Pietro Albini</div>
-                    <nav>
-                        {% assign pages = site.pages | sort:"weight" %}
-                        {% for nav_page in pages %}
-                            {% if nav_page.title %}
-                                <a {% if page.url == nav_page.url
-                                %}class="active"{% endif %} href="{{ nav_page.url | relative_url }}">{{ nav_page.title }}</a>
-                            {% endif %}
-                        {% endfor %}
-                    </nav>
-                </div>
-            </header>
-
-            <div class="container">
-                {{ content }}
-            </div>
+---
+layout: empty
+---
+<div>
+    <header id="main-header">
+        <div class="container">
+            <div id="title">Pietro Albini</div>
+            {% include navbar.html %}
         </div>
-        <footer>
-            <div class="container">
-                <ul>
-                    <li>Copyright &copy; 2016-2020 Pietro Albini.</li>
-                    <li><a href="https://github.com/pietroalbini/website">
-                        Source code
-                    </a></li>
-                    <li><a href="{{ '/blog/atom.xml' | relative_url }}">Atom feed</a></li>
-                </ul>
-                <ul>
-                    <li>
-                        Contents under the
-                        <a href="https://creativecommons.org/licenses/by/4.0/">
-                            Creative Commons Attribution 4.0</a>
-                        license.
-                    </li>
-                    <li>VAT ID: IT 04468710407</li>
-                </ul>
-            </div>
-        </footer>
-    </body>
-</html>
+    </header>
+
+    <div class="container">
+        {{ content }}
+    </div>
+</div>
+
+{% include footer.html %}

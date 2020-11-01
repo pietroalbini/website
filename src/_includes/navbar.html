@@ -1,0 +1,8 @@
+<nav>
+    {% assign pages = site.pages | sort:"weight" %}
+    {% for nav_page in pages %}
+        {% if nav_page.title %}
+            <a {% if page.url == nav_page.url %}class="active"{% endif %} href="{{ nav_page.url | relative_url }}">{{ nav_page.title }}</a>
+        {% endif %}
+    {% endfor %}
+</nav>

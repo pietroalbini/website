@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width">
+
+        <title>{% if page.title %}{{ page.title | escape }} - Pietro Albini{% else %}Pietro Albini{% endif %}</title>
+
+        <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
+        <link rel="stylesheet" href="{{ "/assets/style.css" | relative_url }}">
+        <link rel="stylesheet" href="https://assets.pietroalbini.org/fonts/bitter/include.min.css">
+        <link rel="stylesheet" href="https://assets.pietroalbini.org/fonts/fira-sans/include.min.css">
+
+        <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+
+        {% if page.collection == "posts" %}
+            {% assign description = page.excerpt | newline_to_br | replace:'<br />', ' ' | strip_html | strip_newlines | strip %}
+
+            <meta name="description" content="{{ description }}">
+
+            <meta property="og:site_name" content="Pietro Albini's blog">
+            <meta property="og:type" content="article">
+            <meta property="og:url" content="{{ page.url | absolute_url }}">
+            <meta property="og:title" content="{{ page.title }}">
+            <meta property="og:description" content="{{ description }}">
+
+            <meta name="twitter:card" content="summary">
+            <meta name="twitter:image" content="{{ '/assets/avatar-medium.jpg' | absolute_url }}" />
+            <meta name="twitter:site" content="@pietroalbini">
+            <meta name="twitter:creator" content="@pietroalbini">
+        {% endif %}
+
+        {% feed_meta %}
+    </head>
+    <body>
+        {{ content }}
+    </body>
+</html>

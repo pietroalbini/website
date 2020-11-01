@@ -1,15 +1,22 @@
 ---
-layout: default
-title: Blog posts
-weight: -10
+layout: empty
 ---
 
-{% for post in site.posts %}
-    <a class="post-list-item" href="{{ post.url | prepend: site.baseurl }}">
-        <div class="meta">
-            <div class="date">{{ post.date |date:"%B %-d, %Y" }}</div>
-            <div class="title">{{ post.title }}</div>
+<div class="index-container">
+    <div class="index-centerer">
+        <div>
+            <div class="id-card">
+                <img src="{{ '/assets/avatar-medium.jpg' | absolute_url }}" alt="A picture of me">
+                <div class="id-card-details">
+                    <h1>Pietro Albini</h1>
+                    <div class="role">Rust Infrastructure Team Lead</div>
+                    <div class="role">Rust Core Team Member</div>
+                </div>
+            </div>
+
+            {% include navbar.html %}
         </div>
-        <div class="arrow">&rsaquo;</div>
-    </a>
-{% endfor %}
+    </div>
+
+    {% include footer.html %}
+</div>
