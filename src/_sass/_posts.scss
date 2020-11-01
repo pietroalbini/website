@@ -1,22 +1,44 @@
-div.post-meta {
-    border-bottom: 0.1em solid $color-gray-95;
-    padding: 1.5em 0;
-    margin-top: -1.5em;
-    margin-bottom: 1.5em;
-    text-align: center;
+div.post-container {
+    background: $color-gray-98;
 
-    h2 {
-        margin: 0 0 0.2em 0;
-        font-size: 1.7em;
-        font-weight: 400;
-        line-height: 1.2em;
+    div.post-meta {
+        padding: 1.5em 0;
+        text-align: center;
+
+        h2 {
+            margin: 0 0 0.2em 0;
+            font-size: 1.7em;
+            font-weight: 400;
+            line-height: 1.2em;
+        }
+
+        p {
+            font-family: $font-main;
+            color: $color-main-48;
+            text-align: center;
+            margin: 0;
+
+            a {
+                color: $color-main-20;
+            }
+        }
     }
 
-    p {
-        font-family: $font-main;
-        color: $color-main-50;
-        text-align: center;
-        margin: 0;
+    .paper {
+        background: $color-white;
+        padding: 2em;
+        border-radius: 0.2em;
+        box-shadow: 0 0.2em 0.2em $color-gray-90;
+
+        & > :first-child {
+            padding-top: 0px !important;
+            margin-top: 0px !important;
+        }
+
+        & > :last-child {
+            padding-bottom: 0px !important;
+            margin-bottom: 0px !important;
+        }
     }
 }
 

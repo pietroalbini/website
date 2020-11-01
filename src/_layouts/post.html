@@ -1,14 +1,21 @@
 ---
-layout: default
+layout: empty
 ---
 
-</div>
-<div class="post-meta">
+<div class="post-container">
     <div class="container">
-        <h2>{{ page.title }}</h2>
-        <p>Written on {{ page.date | date:"%B %-d, %Y" }}.</p>
-    </div>
-</div>
-<div class="container">
+        <div class="post-meta">
+            <h2>{{ page.title }}</h2>
+            <p>
+                A post by <a href="{{ '/' | absolute_url }}">Pietro Abini</a>,
+                written on {{ page.date | date:"%B %-d, %Y" }}.
+            </p>
+        </div>
 
-{{ content | hyphenate }}
+        <div class="paper">
+            {{ content | hyphenate }}
+        </div>
+    </div>
+
+    {% include footer.html %}
+</div>

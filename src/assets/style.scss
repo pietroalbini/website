@@ -12,10 +12,12 @@ $color-bright-50: hsl($hue, 100%, 50%);
 $color-main-20: hsl($hue, 45%, 20%);
 $color-main-48: hsl($hue, 45%, 48%);
 $color-main-50: hsl($hue, 45%, 50%);
+$color-gray-90: hsl($hue, 30%, 90%);
 $color-gray-95: hsl($hue, 30%, 95%);
 $color-gray-98: hsl($hue, 30%, 98%);
+$color-white: #fff;
 
-$container-width: 45rem;
+$container-width: 50rem;
 
 @import "_base";
 @import "_header";
