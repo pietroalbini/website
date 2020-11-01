@@ -12,6 +12,10 @@ header#main-header {
         font-weight: 700;
         flex: 1;
         font-size: 1.3em;
+
+        a {
+            color: $color-main-20;
+        }
     }
 
     nav {

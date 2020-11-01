@@ -1,18 +1,32 @@
-div.error {
-    h2 {
-        font-weight: 400;
-        font-size: 4em;
-        text-align: center;
-        line-height: 1.2em;
-        margin: 0;
-    }
+.error-container {
+    display: flex;
+    flex-direction: column;
+    background: $color-gray-98;
 
-    p {
-        font-family: $font-main;
-        font-size: 2em;
-        line-height: 1.2em;
-        color: $color-main-50;
-        text-align: center;
-        margin: 0;
+
+    .error-centerer {
+        padding: 1.5em 0.5em;
+        flex: 1;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        h2 {
+            font-weight: 400;
+            font-size: 4em;
+            text-align: center;
+            line-height: 1.2em;
+            margin: 0;
+        }
+
+        p {
+            padding-top: 0.5em;
+            font-size: 1.2em;
+            line-height: 1.2em;
+            color: $color-main-50;
+            text-align: center;
+            margin: 0;
+        }
     }
 }
