@@ -1,4 +1,4 @@
 ---
 layout: redirect
-to: /about/
+to: /
 ---
